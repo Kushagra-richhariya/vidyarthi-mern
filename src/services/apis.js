@@ -1,4 +1,5 @@
 const BASE_URL = `${process.env.REACT_APP_API_URL}/api/v1`
+console.log(BASE_URL);
 
 // AUTH ENDPOINTS
 export const endpoints = {

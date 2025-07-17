@@ -1,7 +1,7 @@
 import axios from "axios"
 
 export const axiosInstance = axios.create({
-    baseURL:  "https://vidyarthi-sxww.onrender.com",
+    baseURL: process.env.REACT_APP_API_URL,
     withCredentials: true,
 });
 
