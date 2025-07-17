@@ -24,7 +24,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
 	cors({
-		origin:"https://vidyarthi-sxww.onrender.com",
+		origin:"https://vidyarthi-frontend.onrender.com",
 		credentials:true,
 		methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
 		allowedHeaders: ['Content-Type', 'Authorization', 'Cookie']
@@ -56,7 +56,7 @@ app.get("/", (req, res) => {
 	});
 });
 
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
 	console.log(`App is running at ${PORT}`)
 })
 
