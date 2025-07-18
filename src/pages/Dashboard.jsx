@@ -83,7 +83,7 @@ function Dashboard() {
                       navigate(link.path)
                       setSidebarOpen(false)
                     }}
-                    className="flex items-center gap-3 text-left px-4 py-2 rounded hover:bg-gray-100 text-richblack-700 font-medium transition-all"
+                    className="flex items-center gap-3 text-left px-4 py-2 rounded text-yellow-25 hover:bg-richblack-700 hover:text-yellow-25 font-medium transition-all"
                   >
                     <Icon className="text-lg" />
                     <span>{link.name}</span>
@@ -96,7 +96,7 @@ function Dashboard() {
                   navigate("/dashboard/settings")
                   setSidebarOpen(false)
                 }}
-                className="flex items-center gap-3 text-left px-4 py-2 rounded hover:bg-gray-100 text-richblack-700 font-medium transition-all mt-2"
+                className="flex items-center gap-3 text-left px-4 py-2 rounded text-yellow-25 hover:bg-richblack-700 hover:text-yellow-25 font-medium transition-all mt-2"
               >
                 <VscSettingsGear className="text-lg" />
                 <span>Settings</span>
@@ -107,7 +107,7 @@ function Dashboard() {
                   setSidebarOpen(false)
                   dispatch(logout(navigate))
                 }}
-                className="flex items-center gap-3 text-left px-4 py-2 rounded hover:bg-gray-100 text-pink-500 font-medium transition-all mt-2"
+                className="flex items-center gap-3 text-left px-4 py-2 rounded text-pink-500 hover:bg-richblack-700 font-medium transition-all mt-2"
               >
                 <VscSignOut className="text-lg" />
                 <span>Logout</span>

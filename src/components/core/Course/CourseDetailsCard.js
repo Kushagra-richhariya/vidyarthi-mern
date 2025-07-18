@@ -57,7 +57,7 @@ function CourseDetailsCard({ course, setConfirmationModal, handleBuyCourse }) {
         <img
           src={ThumbnailImage}
           alt={course?.courseName}
-          className="max-h-[300px] min-h-[180px] w-[400px] overflow-hidden rounded-2xl object-cover md:max-w-full"
+          className="max-h-[300px] min-h-[180px] w-[400px] overflow-hidden rounded-2xl object-cover md:max-w-full transition-transform duration-300 hover:scale-105 hover:shadow-lg cursor-pointer"
         />
 
         <div className="px-4">
