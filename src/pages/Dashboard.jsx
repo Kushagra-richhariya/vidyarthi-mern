@@ -64,7 +64,7 @@ function Dashboard() {
             onClick={() => setSidebarOpen(false)}
           ></div>
           {/* Sidebar drawer with correct options and styling */}
-          <div className="relative w-64 max-w-full h-full bg-white border-r border-richblack-200 shadow-lg animate-slideInLeft flex flex-col py-8 px-4">
+          <div className="relative w-64 max-w-full h-full bg-richblack-800 border-r border-richblack-200 shadow-lg animate-slideInLeft flex flex-col py-8 px-4">
             <button
               className="absolute top-4 right-4 z-50 bg-richblack-100 p-1 rounded-full border border-richblack-200"
               onClick={() => setSidebarOpen(false)}
